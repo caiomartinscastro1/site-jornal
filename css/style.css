@@ -1,0 +1,188 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body , html{
+    height: 100%;
+}
+
+body{
+    background-image: url(../img/fundo.png);
+    background-repeat: repeat-x;
+}
+
+/*_____________________________________*/
+
+#container{
+    max-width: 1200px;
+    min-width: none;
+    margin: auto;
+}
+
+header{
+    background-image: url(../img/detalhe-topo.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-position-y:-10px;
+}
+
+header h1{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    max-width: 756px;
+
+    margin: 40px 0px 0px 20px;
+}
+
+nav ul li{
+    width: 90px;
+    padding: 14px 9px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+nav ul li:hover{
+    background-color: rgb(112, 13, 13);
+}
+
+nav a{
+    text-decoration: none;
+}
+
+/*_______________________________*/
+
+main{
+    margin-top: 80px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#menu{
+    max-width: 280px;
+    min-width: none;
+}
+
+#menu h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(79, 87, 207);
+    color: white;
+    padding: 7px;
+}
+
+#menu ul{
+    list-style: none;
+    padding: 5px;
+}
+
+#menu ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 7px;
+    font-size: 20px;
+    color: black;
+}
+
+#menu li:hover{
+    background-color: rgb(230, 227, 227);
+}
+
+#menu a{
+    text-decoration: none;
+}
+
+#menu label{
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+
+#email{
+    display: block;
+    margin: auto;
+    border:none ;
+    outline: none;
+    background-color: rgb(233, 232, 232);
+    padding: 4px;
+    border-radius: 10px;
+}
+
+#cadastrar{
+    padding: 9px 0px;
+    width: 64%;
+    color: white;
+    background-color: red;
+    display: block;
+    border-radius: 20px;
+    border: none;
+    margin: 9px auto;
+}
+
+#cadastrar:hover{
+    background-color: rgb(112, 13, 13);
+}
+
+/*______________________________*/
+
+article{
+    max-width: 790px;
+    min-width: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+.noticias{
+    max-width: 380px;
+}
+
+.fotos{
+    max-width: 380px;
+}
+
+.materias{
+    width: 100%;
+}
+
+article h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(79, 87, 207);
+    color: white;
+    padding: 7px;
+}
+
+article h3{
+    margin: 4px;
+    padding: 5px;
+    background-color:red;
+    width: 230px;
+    font-size: 14px;
+    color: white;
+}
+
+article .leiamais{
+    text-decoration: none;
+}
+
+article .leiamais:hover{
+    color: red;
+}
